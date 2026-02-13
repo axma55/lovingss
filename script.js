@@ -47,7 +47,7 @@ function displayCat() {
     // Create a new Image element for the cat
     var catImage = new Image();
     // Set the source (file path) for the cat image
-    catImage.src = 'love'; // Assuming the cat image is named "cat.gif"
+    catImage.src = 'love.jpg'; // Assuming the cat image is named "cat.gif"
     // Set alternative text for the image (for accessibility)
     catImage.alt = 'love';
     // When the cat image is fully loaded, add it to the image container
@@ -78,5 +78,6 @@ function displayCatHeart() {
 
 // Display the cat.gif initially
 displayCat();
+
 
 
